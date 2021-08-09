@@ -1,0 +1,25 @@
+.information {
+  border: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.info_btn-text {
+  width: 20%;
+  height: 80%;
+  padding: 10px 16px;
+  margin: 8px ;
+  border-style: groove;
+  box-sizing: border-box;
+}
+
+.info_btn-text hover {
+  background-color: yellow;}
+
+#confirm_order{
+  width: 20%;
+  background-color: #008080;
+  color: white;
+  padding:  10px;
+  margin: 8px ;
+}
