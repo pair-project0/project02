@@ -1,6 +1,6 @@
 
 .row {
-    width: 3000x;
+   
     height: 400px;
     
 }
@@ -10,32 +10,50 @@
     
 }
 #card1 {
-    margin-left: 200px;
+    margin-left: 100px;
     background-image: url("pizza.jpg");
     width: 3000x;
-    height: 400px;
+    height:360px;
     background-repeat: no-repeat;
    
 }
 #card2 {
-    margin-left: 200px;
+    margin-left: 100px;
     background-image: url("burger2.jpg");
     width: 3000x;
-    height: 400px;
+    height:360px;
     background-repeat: no-repeat;
 }
 #card3 {
-    margin-left: 200px;
+    margin-left: 100px;
     background-image: url("guacamole.jpg");
     width: 3000x;
-    height: 400px;
+    height:360px;
     background-repeat: no-repeat;
 }
 #card4 {
-    margin-left: 200px;
+   margin-left: 100px;
     background-image: url("chiken.jpg");
     width: 3000x;
-    height: 400px;
+    height:360px;
     background-repeat: no-repeat;
 }
-
+#pinfo {
+    color: rgb(167, 4, 4);
+    font-style: oblique;
+    font-size: 250%;
+    position: absolute;
+    bottom: 0;
+}
+#btnbuy {
+  background-color: rgb(199, 26, 26);
+  color: black;
+  border: 2px solid #b43322; /* Green */
+  position: absolute;
+  bottom: 0;
+  right: 0 ;
+}
+#price {
+  
+  }
+  
