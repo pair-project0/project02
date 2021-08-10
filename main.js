@@ -1,19 +1,20 @@
-// $('.btn').click(function(){
-//     console.log("clicked")
-// 	var i=0
-// 	var array=["habmurger.jpeg","pizzas.jpg","tacos.jpeg"]
-// 	setInterval(function(){
-// 		display(array,i++)
-// 	},300)
 
-// });
- 
-// function display(array,i=0){
-//     i=i%3
-//     console.log(i)
-//     $('.btn').html('')
-//     $(`<img class="mySlides" src="${array[i]}">`).appendTo($('.btn'))
-// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
