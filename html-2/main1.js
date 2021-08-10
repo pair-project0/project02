@@ -1,12 +1,37 @@
 $(document).ready(function(){
 
 
-
+// order confirmed
 
     $("#confirm_order").click(function(){
         alert("Your order is confirmed.");
     });
 
+// button search in navbar
 
 
+$("#srch").val()
+console.log($("#srch").val())
+$("#btnsearch").click(function(){
+    var search_rslt = $()
+  foods.filter(function(elem ){console.log( document.getElementById("srch").value  === elem.name)})
+
+})  
+//append or hide, show
+    
 });
+
+function Peak(name,price,url){
+     var food={}
+    
+   food.name=name;
+    food.price=price;
+    food.url=url;
+    return food
+   
+}
+
+var food1=Peak('pizza','  30$', 'pizzas.jpg')
+var food2=Peak('tacos',' 30$','tacos.jpeg' )
+var foods= [food1,food2]
+
