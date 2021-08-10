@@ -1,0 +1,41 @@
+
+.row {
+    width: 3000x;
+    height: 400px;
+    
+}
+.card-body {
+
+    height: 400px;
+    
+}
+#card1 {
+    margin-left: 200px;
+    background-image: url("pizza.jpg");
+    width: 3000x;
+    height: 400px;
+    background-repeat: no-repeat;
+   
+}
+#card2 {
+    margin-left: 200px;
+    background-image: url("burger2.jpg");
+    width: 3000x;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+#card3 {
+    margin-left: 200px;
+    background-image: url("guacamole.jpg");
+    width: 3000x;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+#card4 {
+    margin-left: 200px;
+    background-image: url("chiken.jpg");
+    width: 3000x;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+

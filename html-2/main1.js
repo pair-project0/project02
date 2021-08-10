@@ -24,14 +24,21 @@ $("#btnsearch").click(function(){
 function Peak(name,price,url){
      var food={}
     
-   food.name=name;
+   food.name  =name;
     food.price=price;
-    food.url=url;
-    return food
+    food.url  =url;
+    return food;
    
 }
 
-var food1=Peak('pizza','  30$', 'pizzas.jpg')
-var food2=Peak('tacos',' 30$','tacos.jpeg' )
-var foods= [food1,food2]
+var food1 = Peak('pizza','  30$', 'pizza.jpg')
+
+var food2 = Peak('hamburger',' 30$','burger2.jpg')
+
+var food3 = Peak('tacos',' 30$','guacamole.jpg')
+
+var food4 = Peak('chicken',' 30$','chiken.jpg')
+
+var foods= [food1,food2,food3,food4]
+
 

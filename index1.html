@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+    <script src="main1.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar scroll</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,14 +24,14 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a  class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Link</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Link
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a  class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -40,64 +42,47 @@
               </li>
             </ul>
             <form class="d-flex">
-              <input id="search" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button id="btn" class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
-           </div>
-        <div class='caro'></div>
+        </div>
       </nav>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div id="card3" class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">.</p>
-              <a href="index1.html" class="btn btn-primary">buy</a>
-            </div>
-          </div>
-        </div>
 
-        <div  class="col-sm-6"  >
-          <div id="card2" class="card">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">.</p>
-              <a href="index1.html" class="btn btn-primary">buy</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div  class="card">
-            <div id="card1" class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">.</p>
-              <a href="index1.html" class="btn btn-primary">buy</a>
-              <button class="btn">information</button>
-            </div>
-          </div>
-        </div>
-        <div  class="col-sm-6"  >
-          <div id="card4" class="card">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">.</p>
-              <a href="index1.html" class="btn btn-primary">buy</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <li>
-
-<<<<<<< HEAD
       
+</div>
 
-     
-=======
-      </li>
->>>>>>> a80a068f51c1564e658ff98a01e4fe9a69d058de
-   <script src="main.js"></script>
+<div class = "information">
+<p class ="customerInformation" >First Name *</p>
+<input type="text" class="info_btn-text " id="first_name">
+<p class = "customerInformation">Last Name *</p>
+<input type="text" class="info_btn-text " id="last_name">
+<p class = "customerInformation">Address *</p>
+<input type="text" class="info_btn-text " id="adress">
+<p class = "customerInformation">City *</p>
+<input type="text" class="info_btn-text " id="city">
+<select class = "customerInformation" id="region">
+      <option value="ariana">Ariana</option>
+      <option value="tunis">Tunis</option>
+      <option value="ben arous">Ben Arous</option>
+      <option value="ben arous">Manouba</option>
+
+</select>
+<p class = "customerInformation">Postal Code *</p>
+<input type="text" class="info_btn-text " id="Postal_Code">
+<p class = "customerInformation">Phone Number *</p>
+<input type="text" class="info_btn-text " id="Phone_Number">
+<p class = "customerInformation">email adress *</p>
+<input type="text" class="info_btn-text " id="email_adress">
+
+<br>
+<br>
+<div>
+<button type="submit" id="confirm_order" >confirm order</button>
+</div>
+</div>
+
+
+<script src="main1.js"></script>
 </body>
 </html>
