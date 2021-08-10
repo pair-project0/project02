@@ -13,8 +13,8 @@ $(document).ready(function(){
 $("#srch").val()
 console.log($("#srch").val())
 $("#btnsearch").click(function(){
-    var search_rslt = $()
-  foods.filter(function(elem ){console.log( document.getElementById("srch").value  === elem.name)})
+    var search_rslt =foods.filter(function(elem ){return document.getElementById("srch").value  === elem.name})
+    console.log(search_rslt)
 
 })  
 //append or hide, show
