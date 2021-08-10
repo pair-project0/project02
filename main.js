@@ -17,11 +17,56 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var $carrd1=$('#card1')
 $carrd1.click(function(){
     $carrd1.hide()
 
 });
+
+
+
+
+
+
+
 
 
 
