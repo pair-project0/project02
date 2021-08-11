@@ -102,4 +102,6 @@ var food3 = Peak('tacos',' 30$','guacamole.jpg')
 
 var food4 = Peak('chicken',' 30$','chiken.jpg')
 
+var food5 = Peak('spagetti', '30$','spagetti-19.jpg')
+
 var foods= [food1,food2,food3,food4]

@@ -1,0 +1,46 @@
+
+  body{
+
+    background-image: url("C:/Users/PC Asus/Desktop/project02/background1.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #form {
+    margin: 0 auto; 
+    width:500px;
+    text-align: center;
+    background-color: rgb(231, 220, 220);
+    left: 50%;
+    margin-top: 180px;
+    
+  }
+   #button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4ace6b;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 10px 15px;
+    border-width: 2px;
+    cursor: pointer;
+    text-align: center;
+    left: 50%;
+    margin-top: 10px;
+
+
+  }
+  
+  #button:hover {
+    background-color: rgb(8, 136, 8);
+    color: white;
+   
+  }
+  label{
+    font-weight: bold;
+
+  }
+  input{
+    border-radius: 5px;
+    border: 2px solid
+  }
